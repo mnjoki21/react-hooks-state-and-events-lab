@@ -8,7 +8,7 @@ function App() {
   const [darkMode , setDarkMode] =useState(false)
 
   function handleDarkMode (){
-    setDarkMode((darkMode)=> !darkMode)
+    setDarkMode((darkMode )=> !darkMode)
   }
 
   // replace 'false' with a state variable that can be toggled between true and false
